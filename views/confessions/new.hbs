@@ -1,0 +1,97 @@
+
+<div class="center">
+<h1>Submit your Confession</h1>
+<br>
+<br>
+
+<form method="POST" action="/confessions">
+  <div class="info">
+    <label for="title">Title of your Confession(Numbers Only)</label>
+    <input type="text" name="name">
+  </div>
+  <div class="info">
+    <label for="submissionfield">Confess Here </label>
+    <input type="text" name="submit">
+  </div>
+  
+
+  
+  <button id="button-main" type="submit">Submit Confession</button>
+</form>
+</div>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+$('h1').hide();
+$('h1').fadeIn(3000);
+
+
+</script>
+
+
+
+  
+ 
+
+
+
+
+
+<style>
+body, html {
+background-image: url(https://fromagination.com/wp-content/uploads/2014/11/cropped-Light-Wood-Background.jpg);
+background-size: 100%;
+
+
+}
+form {
+
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+h3, p {
+font-family:  'Bellefair';
+color: rgb(147, 0, 0);
+font-size: 35px;
+
+}
+
+.center, #info, label {
+
+    display: flex;
+    justify-content: center;
+   align-content: center;
+}
+
+h1 {
+font-size: 65px;
+font-family: 'Bitter';
+color: crimson;
+}
+
+p {
+font-size: 35px;
+font-family: 'Bellefair';
+color: crimson;
+text-decoration: underline;
+
+}
+
+#button-main {
+    font-family: 'Bitter';
+    color: crimson;
+    background-color: rgb(128, 78, 37);
+    font-size: 35px;
+    
+    
+}
+.info {
+  font-family: 'Bellefair';
+  font-size: 25px;
+}
+</style>
+
